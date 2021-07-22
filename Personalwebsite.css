@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    margin:0;
+    padding-top: 800px;
+
+}
+.Photo {
+    width: 150px;
+    margin-bottom: 50px;
+    border-radius: 30%;
+    margin-top: 50px;
+}
+
+#Welcome {
+
+position:absolute;
+overflow: hidden;
+height: 800px;
+height: 100%;
+width: 100%;
+background: linear-gradient(#60ebeb 0%,#27ae60 100%);
+left: 0;
+top: 0;
+bottom: 0;
+right: 0;
+opacity: 0.75;
+color: white;
+display: table;
+}
+h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'lato',sans-serif;
+}
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: monospace;
+}
+#Bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+
+}
+p {
+    font-size: 15px;
+    line-height: 1.2;
+    max-width: 450px;
+    margin: 25px auto;
+}
+#Body { 
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+
+}
+#Intro {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Navbar {
+    color: white;
+    right: 30px;
+    cursor: pointer;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+
+    
+}
+.Menu {
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+
+    list-style-type: none;
+    z-index: 10;
+    top: 10px;
+    left: 30px;
+    display: flex;
+    padding: 5px;
+    margin: 10px,10px;
+}
+.Home {
+    
+    float: left;
+     color: #fff; 
+     padding-top: 5px;
+      padding-left: 9px;
+       padding-right: 9px;
+        padding-bottom: 5px; 
+        font-family:fantasy;
+         font-size: 20px
+}
+.Home:hover {
+    background-color: dodgerblue;
+}
